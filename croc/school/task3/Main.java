@@ -1,4 +1,4 @@
-public class Main2 {
+public class Main {
     static class Point{
         double x;
         double y;
