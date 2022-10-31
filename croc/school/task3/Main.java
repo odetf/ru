@@ -1,3 +1,5 @@
+package ru.croc.school.task3;
+
 public class Main {
     static class Point{
         double x;
