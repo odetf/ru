@@ -1,12 +1,14 @@
-package ru.croc.school.Task4;
+package ru.croc.school.task4;
 
 public class Annotation {
     public String description;
     public String figure;
 
-    public Annotation (String description, String figure) {
-        this.description = description;
-        this.figure = figure;
+    public Annotation(String description, Figure[] figures){
+        for (Figure figure:figures){
+            this.description = figure.getDescription();
+            this.figure = figure;
+        }
     }
 
     public void toString(Figure figure){
