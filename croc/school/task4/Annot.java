@@ -1,3 +1,4 @@
+package ru.croc.school.task4;
 public class Annot {
     public String description;
     public Figure figure;
