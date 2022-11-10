@@ -75,5 +75,5 @@ public class Rectangle extends Figure{
 
     @Override
     public String toString(){
-        return "Rectangle ("+Rectangle.this.getX1()+", "+Rectangle.this.getY1()+"), ("+Rectangle.this.getX2()+", "+Rectangle.this.getY2()+"):";
+        return "Rectangle ("+this.getX1()+", "+this.getY1()+"), ("+this.getX2()+", "+this.getY2()+"):";
 }}}
